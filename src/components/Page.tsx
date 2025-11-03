@@ -21,7 +21,7 @@ export default function Page({
   return (
     <div
       className={[
-        "absolute top-0 h-full w-1/2 p-6 md:p-10",
+        "absolute top-0 h-full w-1/2 p-6",
         isLeft ? "left-0 origin-right" : "right-0 origin-left",
         "[transform-style:preserve-3d]",
         hidden ? "opacity-0" : "opacity-100",
@@ -35,7 +35,7 @@ export default function Page({
     >
       <div
         className={[
-          "relative h-full w-full rounded-[1.1rem] border",
+          "relative h-full w-full p-4 rounded-[1.1rem] border",
           "bg-[conic-gradient(at_120%_120%,#faf7f2,#ffffff_25%,#fdfbf8_50%,#ffffff_75%,#faf7f2)]",
           "border-stone-300 shadow-[0_20px_40px_-20px_rgba(0,0,0,0.25),inset_0_1px_0_rgba(255,255,255,0.6)]",
         ].join(" ")}
